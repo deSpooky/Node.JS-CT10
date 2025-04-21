@@ -1,0 +1,21 @@
+{
+  "name": "ct-10-nodejs",
+  "version": "1.0.0",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch ./src/app.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/express": "^5.0.1",
+    "express": "^5.1.0",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "tsx": "^4.19.3"
+  }
+}

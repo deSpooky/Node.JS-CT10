@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Albums</title>
+</head>
+<body>
+    <ul class="album-list">
+        <li>Album 1</li> 
+        <li>Album 2</li>
+        <li>Album 3</li>
+        <li>Album 4</li>
+    </ul>
+
+    <form action="/albums" method="post">
+        <h2>New Album</h2>
+        <label for="title">Title</label>
+        <input type="text" name="title" required>
+        <button type="submit">Add!</button>
+    </form>
+
+    <script src="/script.js"></script>
+</body>
+</html>
